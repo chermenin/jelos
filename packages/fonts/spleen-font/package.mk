@@ -2,7 +2,7 @@
 # Copyright (C) 2023 JELOS (https://github.com/JustEnoughLinuxOS)
 
 PKG_NAME="spleen-font"
-PKG_VERSION="2.0.0"
+PKG_VERSION="2.1.0"
 PKG_LICENSE="BSD-2-Clause"
 PKG_SITE="https://github.com/fcambus/spleen"
 PKG_URL="${PKG_SITE}/releases/download/${PKG_VERSION}/spleen-${PKG_VERSION}.tar.gz"

@@ -2,7 +2,7 @@
 # Copyright (C) 2023 JELOS (https://github.com/JustEnoughLinuxOS)
 
 PKG_NAME="rdfind"
-PKG_VERSION="1.6.0"
+PKG_VERSION="1.7.0"
 PKG_LICENSE="GPLv2"
 PKG_SITE="https://github.com/pauldreik/rdfind"
 PKG_URL="${PKG_SITE}/archive/refs/tags/releases/${PKG_VERSION}.tar.gz"

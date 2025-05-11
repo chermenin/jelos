@@ -2,7 +2,7 @@
 # Copyright (C) 2022-present JELOS (https://github.com/JustEnoughLinuxOS)
 
 PKG_NAME="bsnes-lr"
-PKG_VERSION="9c688ea5cbbb0e8c586414e07305cfbdffbf83e2"
+PKG_VERSION="b102d6d5817b25aa059b573cd3b7675f2e375fa4"
 PKG_LICENSE="GPLv2"
 PKG_SITE="https://github.com/libretro/bsnes-libretro"
 PKG_URL="${PKG_SITE}/archive/${PKG_VERSION}.tar.gz"

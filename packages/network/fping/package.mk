@@ -2,7 +2,7 @@
 # Copyright (C) 2019-present Shanti Gilbert (https://github.com/shantigilbert)
 
 PKG_NAME="fping"
-PKG_VERSION="5.1"
+PKG_VERSION="5.3"
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="GPL"

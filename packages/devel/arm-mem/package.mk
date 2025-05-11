@@ -4,7 +4,7 @@
 # Copyright (C) 2023 JELOS (https://github.com/JustEnoughLinuxOS)
 
 PKG_NAME="arm-mem"
-PKG_VERSION="b48ea154fd74410022d8189003cd69fad8f3d02c"
+PKG_VERSION="ee8ac1d56adb7ceef4d39a5cc21a502e41982685"
 PKG_ARCH="arm"
 PKG_LICENSE="GPL"
 PKG_SITE="https://github.com/bavison/arm-mem"

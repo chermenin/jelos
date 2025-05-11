@@ -4,7 +4,7 @@
 # Copyright (C) 2023 JELOS (https://github.com/JustEnoughLinuxOS)
 
 PKG_NAME="libxslt"
-PKG_VERSION="1.1.38"
+PKG_VERSION="1.1.39"
 PKG_LICENSE="MIT"
 PKG_SITE="http://xmlsoft.org/xslt/"
 PKG_URL="https://gitlab.gnome.org/GNOME/${PKG_NAME}/-/archive/v${PKG_VERSION}/${PKG_NAME}-v${PKG_VERSION}.tar.bz2"

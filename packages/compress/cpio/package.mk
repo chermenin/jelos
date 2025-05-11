@@ -3,7 +3,7 @@
 # Copyright (C) 2023 JELOS (https://github.com/JustEnoughLinuxOS)
 
 PKG_NAME="cpio"
-PKG_VERSION="2.14"
+PKG_VERSION="2.15"
 PKG_LICENSE="GPL"
 PKG_SITE="http://www.gnu.org/software/cpio/"
 PKG_URL="http://ftp.gnu.org/gnu/cpio/${PKG_NAME}-${PKG_VERSION}.tar.gz"

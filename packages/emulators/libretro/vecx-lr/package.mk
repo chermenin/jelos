@@ -19,7 +19,7 @@
 ################################################################################
 
 PKG_NAME="vecx-lr"
-PKG_VERSION="56a99fa08a7601b304d752188ca573febf26faeb"
+PKG_VERSION="841229a6a81a0461d08af6488f252dcec5266c6a"
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="GPLv2|LGPLv2.1"

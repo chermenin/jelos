@@ -3,7 +3,7 @@
 # Copyright (C) 2023 JELOS (https://github.com/JustEnoughLinuxOS)
 
 PKG_NAME="grep"
-PKG_VERSION="3.9"
+PKG_VERSION="3.11"
 PKG_LICENSE="GPL"
 PKG_SITE="http://www.gnu.org/software/grep/"
 PKG_URL="http://ftp.gnu.org/gnu/grep/${PKG_NAME}-${PKG_VERSION}.tar.xz"

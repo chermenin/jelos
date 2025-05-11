@@ -2,7 +2,7 @@
 # Copyright (C) 2016-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="iw"
-PKG_VERSION="5.19"
+PKG_VERSION="6.9"
 PKG_LICENSE="PUBLIC_DOMAIN"
 PKG_SITE="https://wireless.wiki.kernel.org/en/users/documentation/iw"
 PKG_URL="https://www.kernel.org/pub/software/network/${PKG_NAME}/${PKG_NAME}-${PKG_VERSION}.tar.xz"

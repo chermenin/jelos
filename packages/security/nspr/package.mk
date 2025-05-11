@@ -4,7 +4,7 @@
 # Copyright (C) 2023 JELOS (https://github.com/JustEnoughLinuxOS)
 
 PKG_NAME="nspr"
-PKG_VERSION="4.35"
+PKG_VERSION="4.36"
 PKG_LICENSE="Mozilla Public License"
 PKG_SITE="http://www.linuxfromscratch.org/blfs/view/svn/general/nspr.html"
 PKG_DEPENDS_HOST="ccache:host"

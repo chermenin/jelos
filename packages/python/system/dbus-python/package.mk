@@ -4,7 +4,7 @@
 # Copyright (C) 2022-present Team CoreELEC (https://coreelec.org)
 
 PKG_NAME="dbus-python"
-PKG_VERSION="1.3.2"
+PKG_VERSION="1.4.0"
 PKG_LICENSE="GPL"
 PKG_SITE="https://freedesktop.org/wiki/Software/dbus"
 PKG_URL="https://dbus.freedesktop.org/releases/dbus-python/${PKG_NAME}-${PKG_VERSION}.tar.gz"

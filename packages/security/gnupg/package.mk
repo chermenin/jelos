@@ -2,7 +2,7 @@
 # Copyright (C) 2023 JELOS (https://github.com/JustEnoughLinuxOS)
 
 PKG_NAME="gnupg"
-PKG_VERSION="1.4.23"
+PKG_VERSION="2.4.4"
 PKG_LICENSE="GPL"
 PKG_SITE="https://gnupg.org/ftp/gcrypt/gnupg"
 PKG_URL="${PKG_SITE}/gnupg-${PKG_VERSION}.tar.bz2"

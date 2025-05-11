@@ -2,7 +2,7 @@
 # Copyright (C) 2016-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="diffutils"
-PKG_VERSION="3.9"
+PKG_VERSION="3.10"
 PKG_LICENSE="GPL"
 PKG_SITE="http://www.gnu.org/software/diffutils/"
 PKG_URL="http://ftp.gnu.org/gnu/diffutils/${PKG_NAME}-${PKG_VERSION}.tar.xz"

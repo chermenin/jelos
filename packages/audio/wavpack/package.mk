@@ -2,7 +2,7 @@
 # Copyright (C) 2020-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="wavpack"
-PKG_VERSION="5.6.0"
+PKG_VERSION="5.8.1"
 PKG_LICENSE="BSD"
 PKG_SITE="http://www.wavpack.com"
 PKG_URL="http://www.wavpack.com/wavpack-${PKG_VERSION}.tar.xz"

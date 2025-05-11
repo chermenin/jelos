@@ -3,7 +3,7 @@
 # Copyright (C) 2019-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="jsoncpp"
-PKG_VERSION="1.9.5"
+PKG_VERSION="1.9.6"
 PKG_LICENSE="GPL"
 PKG_SITE="https://github.com/open-source-parsers/jsoncpp/"
 PKG_URL="https://github.com/open-source-parsers/jsoncpp/archive/${PKG_VERSION}.tar.gz"

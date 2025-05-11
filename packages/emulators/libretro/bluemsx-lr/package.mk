@@ -20,7 +20,7 @@
 ################################################################################
 
 PKG_NAME="bluemsx-lr"
-PKG_VERSION="e8a4280bcbd149d1e020adcd9469ad9d8bd67412"
+PKG_VERSION="efaaa1052dc427d64534531cf59a6a9a659dc6a6"
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="GPLv2"

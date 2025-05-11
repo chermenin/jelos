@@ -2,7 +2,7 @@
 # Copyright (C) 2019-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="parallel"
-PKG_VERSION="20231022"
+PKG_VERSION="20250422"
 PKG_LICENSE="GPLv3"
 PKG_SITE="https://www.gnu.org/software/parallel/"
 PKG_URL="http://ftp.gnu.org/gnu/parallel/${PKG_NAME}-${PKG_VERSION}.tar.bz2"

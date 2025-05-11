@@ -2,7 +2,7 @@
 # Copyright (C) 2022-present JELOS (https://github.com/JustEnoughLinuxOS)
 
 PKG_NAME="ecwolf-lr"
-PKG_VERSION="18eca17c2d634b154824e0782c6cbbe0a2c9ea76"
+PKG_VERSION="c57ad894d5942740b4896511e8554c9a776b04a6"
 PKG_LICENSE="GPLv2"
 PKG_SITE="https://github.com/libretro/ecwolf"
 PKG_URL="${PKG_SITE}.git"

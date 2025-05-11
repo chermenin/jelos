@@ -3,7 +3,7 @@
 # Copyright (C) 2023 JELOS (https://github.com/JustEnoughLinuxOS)
 
 PKG_NAME="flycast-lr"
-PKG_VERSION="40cdef6c1c9bd73bf3a55d412e30c25bbcf2b59c"
+PKG_VERSION="ffc32d2d8676e1ca35b074196afbfb2697ee7d59"
 PKG_SITE="https://github.com/flyinghead/flycast"
 PKG_URL="${PKG_SITE}.git"
 PKG_DEPENDS_TARGET="toolchain zlib libzip"

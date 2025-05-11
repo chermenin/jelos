@@ -2,7 +2,7 @@
 # Copyright (C) 2018-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="libssh2"
-PKG_VERSION="1.11.0"
+PKG_VERSION="1.11.1"
 PKG_LICENSE="BSD"
 PKG_SITE="https://www.libssh2.org"
 PKG_URL="https://www.libssh2.org/download/libssh2-${PKG_VERSION}.tar.gz"

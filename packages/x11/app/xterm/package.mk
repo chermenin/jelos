@@ -2,7 +2,7 @@
 # Copyright (C) 2023 JELOS (https://github.com/JustEnoughLinuxOS)
 
 PKG_NAME="xterm"
-PKG_VERSION="379"
+PKG_VERSION="397"
 PKG_LICENSE="MIT"
 PKG_SITE="http://invisible-mirror.net/archives/xterm"
 PKG_URL="${PKG_SITE}/${PKG_NAME}-${PKG_VERSION}.tgz"

@@ -33,8 +33,8 @@ case ${DEVICE} in
     PKG_GIT_CLONE_BRANCH="main"
   ;;
   RK356*)
-    PKG_VERSION="6.8-rc6"
-    PKG_URL="https://git.kernel.org/torvalds/t/${PKG_NAME}-${PKG_VERSION}.tar.gz"
+    PKG_VERSION="6.14"
+    PKG_URL="https://www.kernel.org/pub/linux/kernel/v6.x/${PKG_NAME}-${PKG_VERSION}.tar.xz"
   ;;
   S922X|RK3399)
     PKG_VERSION="6.8.1"

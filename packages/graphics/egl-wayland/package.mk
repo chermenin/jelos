@@ -2,7 +2,7 @@
 # Copyright (C) 2023 JELOS (https://github.com/JustEnoughLinuxOS)
 
 PKG_NAME="egl-wayland"
-PKG_VERSION="1.1.13"
+PKG_VERSION="1.1.19"
 PKG_LICENSE="MIT"
 PKG_SITE="https://github.com/NVIDIA/egl-wayland"
 PKG_URL=${PKG_SITE}/archive/refs/tags/${PKG_VERSION}.tar.gz

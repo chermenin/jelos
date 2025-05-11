@@ -20,7 +20,7 @@
 ################################################################################
 
 PKG_NAME="beetle-supergrafx-lr"
-PKG_VERSION="29ff9e00a85db3d462cca42543a84597c421c99c"
+PKG_VERSION="cbee833dd9188ddfef1d9e48b88287a7d5714953"
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="GPLv2"

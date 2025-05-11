@@ -2,7 +2,7 @@
 # Copyright (C) 2009-2016 Stephan Raue (stephan@openelec.tv)
 
 PKG_NAME="flac"
-PKG_VERSION="1.4.3"
+PKG_VERSION="1.5.0"
 PKG_LICENSE="GPLv2"
 PKG_SITE="https://xiph.org/flac/"
 PKG_URL="http://downloads.xiph.org/releases/flac/${PKG_NAME}-${PKG_VERSION}.tar.xz"

@@ -19,7 +19,7 @@
 ################################################################################
 
 PKG_NAME="pokemini-lr"
-PKG_VERSION="9bf450887026d9b92d4f9432b5d2a5ed749a35e2"
+PKG_VERSION="19095803f1434eb980db6e4004187a4b786e20b6"
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="GPLv3"

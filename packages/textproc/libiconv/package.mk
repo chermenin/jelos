@@ -2,7 +2,7 @@
 # Copyright (C) 2016-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="libiconv"
-PKG_VERSION="1.17"
+PKG_VERSION="1.18"
 PKG_LICENSE="GPL"
 PKG_SITE="https://savannah.gnu.org/projects/libiconv/"
 PKG_URL="http://ftp.gnu.org/pub/gnu/libiconv/${PKG_NAME}-${PKG_VERSION}.tar.gz"

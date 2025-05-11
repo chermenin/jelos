@@ -2,7 +2,7 @@
 # Copyright (C) 2017-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="x265"
-PKG_VERSION="3.5"
+PKG_VERSION="4.1"
 PKG_ARCH="x86_64"
 PKG_LICENSE="GPL"
 PKG_SITE="https://www.videolan.org/developers/x265.html"

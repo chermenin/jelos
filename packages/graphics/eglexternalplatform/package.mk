@@ -2,7 +2,7 @@
 # Copyright (C) 2023 JELOS (https://github.com/JustEnoughLinuxOS)
 
 PKG_NAME="eglexternalplatform"
-PKG_VERSION="1.1"
+PKG_VERSION="1.2"
 PKG_LICENSE="MIT"
 PKG_SITE="https://github.com/NVIDIA/${PKG_NAME}"
 PKG_URL=${PKG_SITE}/archive/refs/tags/${PKG_VERSION}.tar.gz

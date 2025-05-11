@@ -2,7 +2,7 @@
 # Copyright (C) 2023 JELOS (https://github.com/JustEnoughLinuxOS)
 
 PKG_NAME="hidapi"
-PKG_VERSION="7011fa98af2dde00c298105735e470de800288c7"
+PKG_VERSION="3425db0feefeb20d12611b369d6bddcb8b993b07"
 PKG_LICENSE="GPLv3"
 PKG_SITE="https://github.com/libusb/hidapi"
 PKG_URL="${PKG_SITE}.git"

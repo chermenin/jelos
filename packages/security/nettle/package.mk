@@ -4,7 +4,7 @@
 # Copyright (C) 2023 JELOS (https://github.com/JustEnoughLinuxOS)
 
 PKG_NAME="nettle"
-PKG_VERSION="3.9.1"
+PKG_VERSION="3.10.1"
 PKG_LICENSE="GPL2"
 PKG_SITE="http://www.lysator.liu.se/~nisse/nettle"
 PKG_URL="http://ftp.gnu.org/gnu/nettle/nettle-${PKG_VERSION}.tar.gz"
