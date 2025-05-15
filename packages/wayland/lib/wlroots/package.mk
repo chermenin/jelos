@@ -25,5 +25,5 @@ PKG_MESON_OPTS_TARGET="-Dxcb-errors=disabled \
 
 pre_configure_target() {
   # wlroots does not build without -Wno flags as all warnings being treated as errors
-  export TARGET_CFLAGS=$(echo "${TARGET_CFLAGS} -Wno-unused-variable -Wno-unused-but-set-variable -Wno-unused-function")
+  export TARGET_CFLAGS=$(echo "${TARGET_CFLAGS} -Wno-unused-variable -Wno-unused-but-set-variable -Wno-unused-function -Wno-return-type")
 }

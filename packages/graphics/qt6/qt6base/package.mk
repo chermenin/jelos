@@ -7,14 +7,14 @@ PKG_VERSION="${PKG_MAJOR_VERSION}.1"
 PKG_LICENSE="GPLv3"
 PKG_SITE="https://download.qt.io"
 PKG_URL="${PKG_SITE}/archive/qt/${PKG_MAJOR_VERSION}/${PKG_VERSION}/submodules/qtbase-everywhere-src-${PKG_VERSION}.tar.xz"
-PKG_DEPENDS_HOST="toolchain:host"
+PKG_DEPENDS_HOST="toolchain:host pcre2:host"
 PKG_DEPENDS_TARGET="toolchain qt6base:host xorgproto"
 PKG_LONGDESC="QT6 base package"
 
 pre_configure_host() {
 PKG_CMAKE_OPTS_HOST+="
         -GNinja \
-        -DFEATURE_gui=ON \
+        -DFEATURE_gui=OFF \
         -DFEATURE_openssl_linked=ON \
         -DFEATURE_concurrent=ON \
         -DFEATURE_xml=ON \

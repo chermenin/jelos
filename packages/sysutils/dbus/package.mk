@@ -15,7 +15,6 @@ PKG_MESON_OPTS_TARGET="--libexecdir=/usr/lib/dbus \
                        -Dapparmor=disabled \
                        -Dasserts=false \
                        -Dchecks=true \
-                       -Dembedded_tests=false \
                        -Dinstalled_tests=false \
                        -Dmodular_tests=disabled \
                        -Dxml_docs=disabled \

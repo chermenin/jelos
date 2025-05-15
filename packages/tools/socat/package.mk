@@ -3,7 +3,7 @@
 # Copyright (C) 2023 JELOS (https://github.com/JustEnoughLinuxOS)
 
 PKG_NAME="socat"
-PKG_VERSION="1.8.0.3"
+PKG_VERSION="1.7.4.4"
 PKG_LICENSE="GPLv2+"
 PKG_SITE="http://www.dest-unreach.org/socat/download"
 PKG_URL="${PKG_SITE}/${PKG_NAME}-${PKG_VERSION}.tar.bz2"

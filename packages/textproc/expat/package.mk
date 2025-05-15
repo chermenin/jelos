@@ -4,7 +4,6 @@
 
 PKG_NAME="expat"
 PKG_VERSION="2.7.1"
-PKG_SHA256="ef2420f0232c087801abf705e89ae65f6257df6b7931d37846a193ef2e8cdcbe"
 PKG_LICENSE="OSS"
 PKG_SITE="https://libexpat.github.io"
 PKG_URL="https://github.com/libexpat/libexpat/releases/download/R_${PKG_VERSION//./_}/${PKG_NAME}-${PKG_VERSION}.tar.xz"

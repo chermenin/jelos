@@ -18,7 +18,6 @@ PKG_MESON_OPTS_TARGET="-Ddefault-wallpaper=false \
                        -Dfish-completions=false \
                        -Dswaybar=true \
                        -Dswaynag=true \
-                       -Dxwayland=enabled \
                        -Dtray=disabled \
                        -Dgdk-pixbuf=enabled \
                        -Dman-pages=disabled \
