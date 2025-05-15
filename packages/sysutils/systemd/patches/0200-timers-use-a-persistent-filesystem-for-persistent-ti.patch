@@ -1,0 +1,30 @@
+From b027e20cb6875258c7bc850ebafdd94b157932ca Mon Sep 17 00:00:00 2001
+From: Alex Chermenin <alex@chermenin.ru>
+Date: Sun, 11 May 2025 21:52:14 +0500
+Subject: [PATCH] timers: use a persistent filesystem for persistent timers
+
+---
+ src/core/timer.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/core/timer.c b/src/core/timer.c
+index 3c41a250b0..835fbeb2ca 100644
+--- a/src/core/timer.c
++++ b/src/core/timer.c
+@@ -141,11 +141,11 @@ static int timer_setup_persistent(Timer *t) {
+ 
+         if (MANAGER_IS_SYSTEM(UNIT(t)->manager)) {
+ 
+-                r = unit_require_mounts_for(UNIT(t), "/var/lib/systemd/timers", UNIT_DEPENDENCY_FILE);
++                r = unit_require_mounts_for(UNIT(t), "/storage/.cache/systemd/timers", UNIT_DEPENDENCY_FILE);
+                 if (r < 0)
+                         return r;
+ 
+-                stamp_path = strjoin("/var/lib/systemd/timers/stamp-", UNIT(t)->id);
++                stamp_path = strjoin("/storage/.cache/systemd/timers/stamp-", UNIT(t)->id);
+         } else {
+                 const char *e;
+ 
+-- 
+2.48.1
+

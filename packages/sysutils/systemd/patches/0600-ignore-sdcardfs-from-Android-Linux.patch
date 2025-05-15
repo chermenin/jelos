@@ -1,0 +1,26 @@
+From 67c9244c3a974521d327a57fcc5017e3d083fa23 Mon Sep 17 00:00:00 2001
+From: Alex Chermenin <alex@chermenin.ru>
+Date: Sun, 11 May 2025 21:58:05 +0500
+Subject: [PATCH] ignore sdcardfs from Android Linux
+
+---
+ src/basic/check-filesystems.sh | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/src/basic/check-filesystems.sh b/src/basic/check-filesystems.sh
+index 696ef610ac..838b807a3e 100755
+--- a/src/basic/check-filesystems.sh
++++ b/src/basic/check-filesystems.sh
+@@ -23,7 +23,8 @@ for fs in $($cpp -dM $includes - </dev/null | \
+         # STACK_END_MAGIC doesn't refer to a filesystem
+         # mtd_inode was removed in 2015
+         # futexfs was removed in 2018
+-        if [[ "$fs" =~ ^(STACK_END_MAGIC|MTD_INODE_FS_MAGIC|FUTEXFS_SUPER_MAGIC)$ ]]; then
++        # sdcardfs is Android fs
++        if [[ "$fs" =~ ^(STACK_END_MAGIC|MTD_INODE_FS_MAGIC|FUTEXFS_SUPER_MAGIC|SDCARDFS_SUPER_MAGIC)$ ]]; then
+             continue
+         fi
+         echo "Filesystem found in kernel header but not in $(basename "$filesystems_gperf"): $fs";
+-- 
+2.48.1
+

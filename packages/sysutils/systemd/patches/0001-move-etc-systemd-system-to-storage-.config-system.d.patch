@@ -1,0 +1,25 @@
+From ddff9bdfb81bd7d7adc9f4718374f0c79ac1f6de Mon Sep 17 00:00:00 2001
+From: Alex Chermenin <alex@chermenin.ru>
+Date: Sun, 11 May 2025 21:40:51 +0500
+Subject: [PATCH] move /etc/systemd/system to /storage/.config/system.d
+
+---
+ meson.build | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/meson.build b/meson.build
+index 8c16c1c5c0..9de8e0df89 100644
+--- a/meson.build
++++ b/meson.build
+@@ -255,7 +255,7 @@ conf.set_quoted('SYSTEMD_TTY_ASK_PASSWORD_AGENT_BINARY_PATH', bindir / 'systemd-
+ conf.set_quoted('SYSTEMD_UPDATE_HELPER_PATH',                 libexecdir / 'systemd-update-helper')
+ conf.set_quoted('SYSTEMD_USERWORK_PATH',                      libexecdir / 'systemd-userwork')
+ conf.set_quoted('SYSTEMD_VERITYSETUP_PATH',                   libexecdir / 'systemd-veritysetup')
+-conf.set_quoted('SYSTEM_CONFIG_UNIT_DIR',                     pkgsysconfdir / 'system')
++conf.set_quoted('SYSTEM_CONFIG_UNIT_DIR',                     '/storage/.config/system.d')
+ conf.set_quoted('SYSTEM_DATA_UNIT_DIR',                       systemunitdir)
+ conf.set_quoted('SYSTEM_ENV_GENERATOR_DIR',                   systemenvgeneratordir)
+ conf.set_quoted('SYSTEM_GENERATOR_DIR',                       systemgeneratordir)
+-- 
+2.48.1
+

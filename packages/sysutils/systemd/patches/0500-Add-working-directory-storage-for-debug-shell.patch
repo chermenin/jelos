@@ -1,0 +1,24 @@
+From 19e441271c2111084f781fd2d3692a07927d052c Mon Sep 17 00:00:00 2001
+From: Alex Chermenin <alex@chermenin.ru>
+Date: Sun, 11 May 2025 21:54:30 +0500
+Subject: [PATCH] Add working directory '/storage' for debug-shell
+
+---
+ units/debug-shell.service.in | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/units/debug-shell.service.in b/units/debug-shell.service.in
+index 2002742e47..aa78daefbb 100644
+--- a/units/debug-shell.service.in
++++ b/units/debug-shell.service.in
+@@ -16,6 +16,7 @@ ConditionPathExists={{DEBUGTTY}}
+ After=systemd-vconsole-setup.service
+ 
+ [Service]
++WorkingDirectory=/storage
+ Environment=ENV=/etc/profile
+ ExecStart=/bin/sh -c 'echo -en "\033[?25h"; exec /bin/sh'
+ Restart=always
+-- 
+2.48.1
+

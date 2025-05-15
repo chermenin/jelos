@@ -1,0 +1,25 @@
+From fdcd76ad84373f38fdebf52a58a00de7f34052c1 Mon Sep 17 00:00:00 2001
+From: Alex Chermenin <alex@chermenin.ru>
+Date: Sun, 11 May 2025 21:56:30 +0500
+Subject: [PATCH] Start debug service after locale
+
+---
+ units/debug-shell.service.in | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/units/debug-shell.service.in b/units/debug-shell.service.in
+index aa78daefbb..02629815e9 100644
+--- a/units/debug-shell.service.in
++++ b/units/debug-shell.service.in
+@@ -13,7 +13,7 @@ Documentation=man:systemd-debug-generator(8)
+ DefaultDependencies=no
+ IgnoreOnIsolate=yes
+ ConditionPathExists={{DEBUGTTY}}
+-After=systemd-vconsole-setup.service
++After=locale.service
+ 
+ [Service]
+ WorkingDirectory=/storage
+-- 
+2.48.1
+
