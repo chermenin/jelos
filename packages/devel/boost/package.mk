@@ -7,15 +7,15 @@ PKG_NAME="boost"
 PKG_VERSION="1.83.0"
 PKG_LICENSE="OSS"
 PKG_SITE="http://www.boost.org/"
-PKG_URL="https://boostorg.jfrog.io/artifactory/main/release/${PKG_VERSION}/source/${PKG_NAME}_${PKG_VERSION//./_}.tar.bz2"
+PKG_URL="https://github.com/boostorg/${PKG_NAME}/releases/download/${PKG_NAME}-${PKG_VERSION}/${PKG_NAME}-${PKG_VERSION}.tar.gz"
 PKG_DEPENDS_HOST="toolchain:host"
-PKG_DEPENDS_TARGET="toolchain boost:host Python3 zlib bzip2"
+PKG_DEPENDS_TARGET="toolchain boost:host Python3 zlib gzip"
 PKG_LONGDESC="boost: Peer-reviewed STL style libraries for C++"
 PKG_TOOLCHAIN="manual"
 PKG_BUILD_FLAGS="+pic"
 
 make_host() {
-  cd tools/build/src/engine
+  cd ../tools/build/src/engine
     sh build.sh
 }
 
@@ -30,6 +30,7 @@ pre_configure_target() {
 }
 
 configure_target() {
+  cd ..
   sh bootstrap.sh --prefix=/usr \
                   --with-bjam=${TOOLCHAIN}/bin/b2 \
                   --with-python=${TOOLCHAIN}/bin/python \

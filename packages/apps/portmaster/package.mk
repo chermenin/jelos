@@ -28,9 +28,9 @@ makeinstall_target() {
   mkdir -p ${INSTALL}/usr/config/PortMaster/release
   curl -Lo ${INSTALL}/usr/config/PortMaster/release/PortMaster.zip ${PKG_URL}
 
-  mkdir -p ${INSTALL}/usr/lib/compat
-  curl -Lo ${PKG_BUILD}/compat.zip ${COMPAT_URL}
-  unzip -qq ${PKG_BUILD}/compat.zip -d ${INSTALL}/usr/lib/compat/
+  # mkdir -p ${INSTALL}/usr/lib/compat
+  # curl -Lo ${PKG_BUILD}/compat.zip ${COMPAT_URL}
+  # unzip -qq ${PKG_BUILD}/compat.zip -d ${INSTALL}/usr/lib/compat/
 }
 
 post_install() {
