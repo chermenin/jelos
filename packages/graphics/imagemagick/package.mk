@@ -14,8 +14,7 @@ PKG_CONFIGURE_OPTS_TARGET="--disable-openmp \
                            --enable-static \
                            --disable-shared \
                            --with-pango=no \
-                           --with-utilities=yes \
-                           --with-x=no"
+                           --with-utilities=yes"
 
 if [ "${DISPLAYSERVER}" = "wl" ]; then
   PKG_DEPENDS_TARGET+=" libXext pango" 

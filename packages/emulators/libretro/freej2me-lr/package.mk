@@ -16,6 +16,7 @@ PKG_LONGDESC="A free J2ME emulator with libretro, awt and sdl2 frontends."
 PKG_TOOLCHAIN="make"
 
 pre_configure_target() {
+  export JAVA_HOME=$(get_build_dir jdk-zulu)
   ${TOOLCHAIN}/bin/ant
 }
 
