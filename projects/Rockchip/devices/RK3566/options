@@ -65,7 +65,7 @@
     GRAPHIC_DRIVERS="panfrost"
 
   # Displayserver to use (weston / x11 / no)
-    DISPLAYSERVER="wl"
+    DISPLAYSERVER="x11"
 
   # Windowmanager to use (fluxbox / weston / no)
     WINDOWMANAGER="swaywm-env"
@@ -114,10 +114,10 @@
     SAMBA_SUPPORT="no"
 
   # build and install Samba Server (yes / no)
-    SAMBA_SERVER="yes"
+    SAMBA_SERVER="no"
 
   # build and install SFTP Server (yes / no)
-    SFTP_SERVER="yes"
+    SFTP_SERVER="no"
 
   # build and install OpenVPN support (yes / no)
     OPENVPN_SUPPORT="no"
@@ -132,7 +132,7 @@
     UDEVIL="yes"
 
   # build and install exFAT fuse support (yes / no)
-    EXFAT="yes"
+    EXFAT="no"
 
   # build and install NTFS-3G fuse support (yes / no)
     NTFS3G="no"
@@ -148,13 +148,13 @@
     SWAP_SUPPORT="yes"
 
   # Some devices have internal storage.
-    INSTALLER_SUPPORT="yes"
+    INSTALLER_SUPPORT="no"
 
   # swap support enabled per default (yes / no)
     SWAP_ENABLED_DEFAULT="yes"
 
   # swapfile size if SWAP_SUPPORT=yes in MB
-    SWAPFILESIZE="384"
+    SWAPFILESIZE="1024"
 
   # cron support (yes / no)
     CRON_SUPPORT="no"
