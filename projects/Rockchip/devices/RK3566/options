@@ -54,7 +54,7 @@
     MALI_FAMILY="bifrost-g52"
   #  MALI_VERSION="g2p0"
   #  OPENGLES="libmali"
-    VULKAN_SUPPORT=""
+    VULKAN_SUPPORT="yes"
 
   # OpenGL(X) implementation to use (mesa / no)
     OPENGL="mesa"
@@ -65,7 +65,7 @@
     GRAPHIC_DRIVERS="panfrost"
 
   # Displayserver to use (weston / x11 / no)
-    DISPLAYSERVER="x11"
+    DISPLAYSERVER="wl"
 
   # Windowmanager to use (fluxbox / weston / no)
     WINDOWMANAGER="swaywm-env"
