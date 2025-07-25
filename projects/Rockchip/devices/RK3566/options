@@ -104,19 +104,19 @@
     SAMBA_SUPPORT="no"
 
   # build and install Samba Server (yes / no)
-    SAMBA_SERVER="yes"
+    SAMBA_SERVER="no"
 
   # build and install SFTP Server (yes / no)
-    SFTP_SERVER="yes"
+    SFTP_SERVER="no"
 
   # build and install Simple HTTP Server (yes / no)
-    SIMPLE_HTTP_SERVER="yes"
+    SIMPLE_HTTP_SERVER="no"
 
   # build and install OpenVPN support (yes / no)
     OPENVPN_SUPPORT="no"
 
   # build and install ZeroTier support (yes / no)
-    ZEROTIER_SUPPORT="yes"
+    ZEROTIER_SUPPORT="no"
 
   # build and install diskmounter support (udevil)
   # this service provide auto mounting support for external drives in the
@@ -124,7 +124,7 @@
     UDEVIL="yes"
 
   # build and install exFAT fuse support (yes / no)
-    EXFAT="yes"
+    EXFAT="no"
 
   # build and install NTFS-3G fuse support (yes / no)
     NTFS3G="no"
@@ -143,7 +143,7 @@
     SWAP_ENABLED_DEFAULT="yes"
 
   # swapfile size if SWAP_SUPPORT=yes in MB
-    SWAPFILESIZE="384"
+    SWAPFILESIZE="1024"
 
   # cron support (yes / no)
     CRON_SUPPORT="no"
